@@ -9,5 +9,5 @@ WORKDIR /app
 ENV app=v1
 USER murthy
 EXPOSE 80
-CMD apache2ctl -D FOREGROUND
+CMD sleep 100
 
